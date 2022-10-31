@@ -44,9 +44,9 @@ stringElement('guilherme', 5);
 <!--questão 4 -->
 
 function stringSlicer(a, b){
-  let string = a.split("").splice(0, b);
+  let string = a.split(" ").splice(0, b);
 
-  return string;
+  return string.toString('');
 
 }
 stringSlicer('cavalo', 3);
@@ -118,11 +118,12 @@ removeBlank();
 
 function encryptText(str){
   let string = str.split("")
-  let a = "x";
-  let e = "y";
-  let i = "w";
-  let o = "k";
-  let u = "z";
+  let a = ['a', 'x'];
+  let e = ['e',"y"];
+  let i = ['i',"w"];
+  let o = ['o',"k"];
+  let u = ['u',"z"];
+
 
   for(let j = 0; j < string.length; j++){
     if(string[j] === a[0]){
