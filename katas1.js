@@ -49,7 +49,7 @@ function stringSlicer(a, b){
   return string.toString('');
 
 }
-stringSlicer('cavalo', 3);
+stringSlicer('homem', 3);
 
 
 <!--questão 5 -->
